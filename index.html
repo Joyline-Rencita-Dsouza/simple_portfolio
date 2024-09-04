@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    </head>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Joyline Dsouza</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Joyline Dsouza</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <img src="img/icon.png" alt="My profile picture" />
+        </div>
+
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Joyline Rencita Dsouza</h1>
+          <p class="section__text__p2">Final Year CSE Student</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/16I-TIeBII2CBqikPeaMMM8UuDfnKGYDA/view?usp=drive_link')"> Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
+          </div>
+          <div id="socials-container">
+            <img src="./img/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/joyline-rencita-dsouza-927575206/'" />
+            <img src="./img/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Joyline-Rencita'" />
+          </div>
+        </div>
+        <!-- <img src="./img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#about'"/> -->
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+  
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img src="img/education.png" alt="Experience icon" class="icon" />
+                <h3>10TH BOARDS KSEEB</h3>
+                Maryvale High School,Kinnigoli. <br />
+               Dakshina Kannada, Karnataka, India. <br />  Grade : 92.80%
+              </div>
+  
+              <div class="details-container">
+                <img src="img/education.png" alt="Experience icon" class="icon" />
+                <h3>12TH BOARDS PCMB</h3>
+  
+                Madeleine PU College, Mulki.<br />
+                Dakshina Kannada, Karnataka, India. <br />  Grade : 94.33%
+              </div>
+  
+              <div class="details-container">
+                <img src="img/education.png" alt="Education icon" class="icon" />
+                <h3>BE - Computer Science and Engineering.</h3>
+  
+                St Joseph Engineering College<br />
+                Mangalore,Karnataka, India   <br />  CGPA  : 8.59
+              </div>
+            </div>
+  
+            <div class="text-container">
+              <p>
+                Passionate final year Computer Science and Engineering student
+                dedicated to crafting immersive digital experiences that blend
+                form and function. With a love for coding and a keen eye for
+                aesthetics, I bring a unique blend of skills to every project.
+                <br />
+                Let's collaborate and bring your ideas to life.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <img src="img/arrow.png" alt="Arrow icon"  id="arrow" onclick="location.href='#experience'"/> -->
+      </section>
+
+      
+<!-- Experience Section -->
+
+<div class="experience" id="experience">
+    <h1 class="title">Experience</h1>
+    <div class="container">
+      <div class="timeline">
+        <ul>
+
+          <li>
+            <div class="timeline-content">
+              <h3 class="date">May 2023 - Sept 2023</h3>
+              <h1>MathWorks</h1>
+              <p class="section__text__p3">Student Trainee</p>
+              <p>
+                As a Student Trainee at MathWorks, I applied my skills in <strong>deep learning, machine learning, and signal processing</strong> to develop 
+                advanced AI solutions. Proficient in <strong>MATLAB and Simulink</strong>, I worked on creating and optimizing models for <strong>image processing and 
+                other complex tasks</strong>. My focus was on leveraging these tools to drive innovation and efficiency in AI applications. This 
+                experience allowed me to contribute to impactful projects and gain valuable expertise in a cutting-edge environment.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h3 class="date">Aug 2023 - Sept 2023</h3>
+              <h1>CodersCave</h1>
+              <p class="section__text__p3">Data Science Intern</p>
+              <p>
+                Actively involved in a Machine Learning internship, developing and refining algorithms using <strong>Python.</strong> Gaining hands-on experience 
+                in applying <strong>ML models</strong> to real-world data, enhancing predictive accuracy. Learned how Python's libraries and frameworks are 
+                pivotal in building and deploying AI-driven solutions.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h3 class="date">Aug 2023 - Sept 2023</h3>
+              <h1>InternPE</h1>
+              <p class="section__text__p3">Web Development Intern</p>
+              <p>
+                As a Web Development Intern, actively enhanced the frontend of the Event Scheduling Site using
+                <strong>HTML,</strong> <strong>CSS</strong> and <strong>Javascript</strong> , resulting in an intuitive user
+                interface for streamlined event management and scheduling.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-content">
+              <h3 class="date">Sept 2023 - Nov 2023</h3>
+              <h1>Celonis</h1>
+              <p class="section__text__p3">Process Mining Student Intern</p>
+              <p>
+                As a Process Mining Student Intern at Celonis, I leverage skills in <strong>advanced PQL</strong> coding and <strong>execution management systems</strong> to 
+                analyze and optimize <strong>data pipelines</strong>. I am adept at managing <strong>ETL processes and troubleshooting</strong> data models, ensuring efficient 
+                data extraction, transformation, and loading. My focus was be on applying process mining techniques to drive actionable insights
+                and improve operational efficiency.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>SASS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./img/checkmark.png" alt="Experience icon" class="icon"/>
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="p_container">
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="weather" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Weather App</h2>
+            <div class="p_btn-container">
+              <button class="p_btn p_btn-color-2 p_project-btn" onclick="location.href='https://github.com/Joyline-Rencita/Weather-App'">Code </button>
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='https://joyline-rencita.github.io/Weather-App/'">Live </button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Project 2" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Tour Guide App</h2>
+            <div class="p_btn-container">
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='https://github.com/Joyline-Rencita/Mangalore-Tour-Guide-Application'">Code </button>
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='https://github.com/Joyline-Rencita/Mangalore-Tour-Guide-Application'">Live</button>
+            </div>
+        </div>
+
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/Landing Page.png" alt="Image 3" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Tech Landing Page</h2>
+            <div class="p_btn-container">
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Code </button>
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Live </button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Image 4" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Project 4</h2>
+            <div class="p_btn-container">
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Code </button>
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Live </button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Image 5" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Project 5</h2>
+            <div class="p_btn-container">
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Code </button>
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Live </button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Image 6" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Project 6</h2>
+            <div class="p_btn-container">
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Code </button>
+                <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Live </button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Image 7" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Project 7</h2>
+            <div class="p_btn-container">
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Code </button>
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'"> Live </button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Project 8" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Project 8</h2>
+            <div class="p_btn-container">
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'">Code</button>
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'">Live</button>
+            </div>
+        </div>
+
+        <div class="p_details-container p_color-container">
+            <div class="p_article-container">
+              <img src="img/QR Code.png" alt="Project 9" class="p_project-img" />
+            </div>
+            <h2 class="p_experience-sub-title project-title">Project 9</h2>
+            <div class="p_btn-container">
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'">Code</button>
+              <button class="p_btn btn-color-2 p_project-btn" onclick="location.href='#'">Live</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section id="contact" class="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="img/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mail-to:jj.joyline@gmail.com">Mail Me</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="img/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com">Connect With Me</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>
+    Copyright &#169; 2023
+    <a href="https://www.linkedin.com/in/joyline-rencita-dsouza-927575206/">Joyline Rencita Dsouza</a>
+    . All Rights Reserved.
+  </p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
