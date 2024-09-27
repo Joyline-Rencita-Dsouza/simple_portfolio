@@ -39,26 +39,33 @@
           </div>
         </div>
     </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-          <img src="img/icon.png" alt="My profile picture" />
-        </div>
 
-        <div class="section__text">
-          <p class="section__text__p1">Hello, I'm</p>
-          <h1 class="title">Joyline Rencita Dsouza</h1>
-          <p class="section__text__p2">Final Year CSE Student</p>
-          <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/16I-TIeBII2CBqikPeaMMM8UuDfnKGYDA/view?usp=drive_link')"> Download CV</button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
-          </div>
-          <div id="socials-container">
-            <img src="./img/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/joyline-rencita-dsouza-927575206/'" />
-            <img src="./img/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Joyline-Rencita'" />
-          </div>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="img/icon.png" alt="My profile picture" />
+      </div>
+  
+      <div class="section__text">
+        <p class="section__text__p1" id="hi">Hello 👋, I'm</p>
+        <h1 class="title" id="name">Joyline Rencita Dsouza</h1>
+  
+        <!-- Typing animation section -->
+        <p class="section__text__p2" id="hi">
+          <span class="typing"></span>
+        </p>
+  
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1YG0M3E6eQCUz85jB_Hl5fQ9910ptmU8p/view?usp=drive_link')"> Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info </button>
         </div>
-        <!-- <img src="./img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#about'"/> -->
-    </section>
+        
+        <div id="socials-container">
+          <img src="./img/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/joyline-rencita-dsouza-927575206/'" />
+          <img src="./img/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Joyline-Rencita'" />
+        </div>
+      </div>
+      <!-- <img src="./img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#about'"/> -->
+  </section>
 
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
@@ -110,6 +117,7 @@
 <!-- Experience Section -->
 
 <div class="experience" id="experience">
+    <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">Experience</h1>
     <div class="container">
       <div class="timeline">
@@ -427,6 +435,7 @@
     . All Rights Reserved.
   </p>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="script.js"></script>
 
 </body>
